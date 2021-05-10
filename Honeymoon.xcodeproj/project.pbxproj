@@ -21,6 +21,9 @@
 		174483222649651F004A172F /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174483212649651F004A172F /* HeaderComponent.swift */; };
 		17448324264965C2004A172F /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17448323264965C2004A172F /* GuideComponent.swift */; };
 		17448326264972F0004A172F /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17448325264972F0004A172F /* GuideView.swift */; };
+		17E114C92649BFC8003E5033 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E114C82649BFC8003E5033 /* InfoView.swift */; };
+		17E114CB2649C076003E5033 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E114CA2649C076003E5033 /* TitleModifier.swift */; };
+		17E114CE2649C49C003E5033 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E114CD2649C49C003E5033 /* ButtonModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		174483212649651F004A172F /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
 		17448323264965C2004A172F /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
 		17448325264972F0004A172F /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		17E114C82649BFC8003E5033 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		17E114CA2649C076003E5033 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
+		17E114CD2649C49C003E5033 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,7 @@
 				17448320264964F8004A172F /* Component */,
 				1744831926495B9F004A172F /* View */,
 				1744831526495ABB004A172F /* Model */,
+				17E114CC2649C0B4003E5033 /* Modifier */,
 				1744831826495B40004A172F /* Data */,
 				1744830D2649571F004A172F /* Sounds */,
 				174482FE264955FE004A172F /* HoneymoonApp.swift */,
@@ -118,6 +125,7 @@
 				1744831C26495E40004A172F /* HeaderView.swift */,
 				1744831E26495FD4004A172F /* FooterView.swift */,
 				17448325264972F0004A172F /* GuideView.swift */,
+				17E114C82649BFC8003E5033 /* InfoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -129,6 +137,15 @@
 				17448323264965C2004A172F /* GuideComponent.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		17E114CC2649C0B4003E5033 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				17E114CA2649C076003E5033 /* TitleModifier.swift */,
+				17E114CD2649C49C003E5033 /* ButtonModifier.swift */,
+			);
+			path = Modifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,9 +220,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1744831726495B38004A172F /* HoneymoonData.swift in Sources */,
+				17E114C92649BFC8003E5033 /* InfoView.swift in Sources */,
 				1744831F26495FD4004A172F /* FooterView.swift in Sources */,
+				17E114CB2649C076003E5033 /* TitleModifier.swift in Sources */,
 				1744831D26495E40004A172F /* HeaderView.swift in Sources */,
 				1744831426495AB5004A172F /* HoneymoonModel.swift in Sources */,
+				17E114CE2649C49C003E5033 /* ButtonModifier.swift in Sources */,
 				174483222649651F004A172F /* HeaderComponent.swift in Sources */,
 				17448301264955FE004A172F /* ContentView.swift in Sources */,
 				174482FF264955FE004A172F /* HoneymoonApp.swift in Sources */,
