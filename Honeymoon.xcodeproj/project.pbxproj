@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1709DF39264A49FD005CACA8 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1709DF38264A49FD005CACA8 /* SymbolModifier.swift */; };
 		174482FF264955FE004A172F /* HoneymoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174482FE264955FE004A172F /* HoneymoonApp.swift */; };
 		17448301264955FE004A172F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17448300264955FE004A172F /* ContentView.swift */; };
 		1744830326495601004A172F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1744830226495601004A172F /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1709DF38264A49FD005CACA8 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
 		174482FB264955FE004A172F /* Honeymoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honeymoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		174482FE264955FE004A172F /* HoneymoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonApp.swift; sourceTree = "<group>"; };
 		17448300264955FE004A172F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			children = (
 				17E114CA2649C076003E5033 /* TitleModifier.swift */,
 				17E114CD2649C49C003E5033 /* ButtonModifier.swift */,
+				1709DF38264A49FD005CACA8 /* SymbolModifier.swift */,
 			);
 			path = Modifier;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				17E114C92649BFC8003E5033 /* InfoView.swift in Sources */,
 				1744831F26495FD4004A172F /* FooterView.swift in Sources */,
 				17E114CB2649C076003E5033 /* TitleModifier.swift in Sources */,
+				1709DF39264A49FD005CACA8 /* SymbolModifier.swift in Sources */,
 				1744831D26495E40004A172F /* HeaderView.swift in Sources */,
 				1744831426495AB5004A172F /* HoneymoonModel.swift in Sources */,
 				17E114CE2649C49C003E5033 /* ButtonModifier.swift in Sources */,
